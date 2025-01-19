@@ -1,3 +1,5 @@
+const { Telegraf } = require('telegraf');
+const bot = new Telegraf('<YOUR_BOT_TOKEN>');
 const AppData = [
   { name: "DmWin-App", link: "https://www.dmwin1.com/#/register?invitationCode=", giftCode: "FREE100-DMW", description: "DmWin-App Color Prediction and Number Prediction Robot" },
   { name: "Tiranga", link: "https://tirangaclub.net/#/register?invitationCode=", giftCode: "FREE100-TIR", description: "Tiranga Color Prediction and Number Prediction Robot" }
